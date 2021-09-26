@@ -1,17 +1,20 @@
 header {
     padding: 30px;
+    text-align: center;
     background-color:purple;
 }
-article {
+main {
     padding: 30px;
     flex: 30px;
 }
 aside {
     padding: 30px;
+    text-align: center;
     background-color: turquoise;
 }
 footer {
     padding: 30px;
+    text-align: center;
     background-color: red;
 }
 .contenido {

@@ -1,47 +1,51 @@
 header {
     padding: 30px;
-    text-align: center;
     background-color:purple;
+    text-align: center;
 }
 main {
     padding: 30px;
-    flex: 30px;
+    flex: 32px;
     font-family: Arial, Helvetica, sans-serif;
 }
 aside {
     padding: 30px;
+    background-color: cadetblue;
     text-align: center;
-    background-color: turquoise;
 }
 footer {
     padding: 30px;
-    text-align: center;
     background-color: red;
+    text-align: center;
 } 
-figure {
-    margin: 0px;
-    border-radius: 100px;
-}
-img {
-    max-width: 700px;
-    height: auto;
-    font-size: 15px;
-}
-figcaption {
-    max-width: 700px;
-    font-size: 10px;
+figure, figcaption, img {
+    max-width: 600px;
+    margin-left: 0px;
+    font-size:10px;
 }
 .content {
     display: flex;
 }
+.intro {
+    font-size: 12px;
+}
 .author {
     padding: 10px;
-    color: cornsilk;
     background-color: black;
+    color: cornsilk;
+}
+.category, .date {
+    padding: 10px;
+}
+.news {
+    margin-bottom: 0px;
+}
+.subtitle {
+    margin-top: 5px;
 }
 .paragraphs {
-    padding: 50px;
     max-width: 600px;
+    padding: 50px;
 }
 
 

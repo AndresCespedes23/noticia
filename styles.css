@@ -19,33 +19,66 @@ footer {
     text-align: center;
 } 
 figure, figcaption, img {
-    max-width: 600px;
+    max-width: 780px;
+    max-height: 100%;
     margin-left: 0px;
-    font-size:10px;
+    font-size:12px;
 }
 .content {
     display: flex;
 }
 .intro {
-    font-size: 12px;
+    font-size: 11px;
 }
 .author {
     padding: 10px;
     background-color: black;
     color: cornsilk;
+    text-decoration: none;
 }
 .category, .date {
     padding: 10px;
+    text-decoration: none;
 }
 .news {
     margin-bottom: 0px;
 }
 .subtitle {
     margin-top: 5px;
+    font-size: 20px;
+}
+.socialmedia {
+    position: relative;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.facebook, .twitter, .envelope, .bookmark {
+    padding-left: 32px;
+    font-size: 25px;
+    line-height: 60px;
+    cursor: pointer;
+}
+.button {
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 55px;
+    background: lightslategrey;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 3px double skyblue;
+}
+.button:hover {
+    transform: translate(0.9);
+    transition: .5s;
+    background:rgb(104, 101, 101);
+    border: 3px solid white;
 }
 .paragraphs {
     max-width: 600px;
-    padding: 50px;
+    padding: 50px 50px 50px 110px;
+    font-size: 19px;
 }
-
-
